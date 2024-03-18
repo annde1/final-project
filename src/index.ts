@@ -21,6 +21,6 @@ app.use("/api/v1/templates", templateRouter); //router for templatess
 app.use("/api/v1/workouts", workoutRouter);
 app.use("/api/v1/exercises", exercisesRouter);
 app.use(errorHandler);
-app.listen(7500, () => {
+app.listen(process.env.PORT || 7500, () => {
   logger.info("App running on port 7500");
 });
