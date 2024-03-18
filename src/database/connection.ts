@@ -9,6 +9,7 @@ const connect = async () => {
     await mongoose.connect(connectionStr);
     logger.info("Database connected"); //winston logger
   } catch (err) {
+    console.log(err);
     logger.error(err);
   }
 };
