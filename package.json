@@ -6,6 +6,9 @@
   "scripts": {
     "watch": "tsx watch src/index.ts"
   },
+  "engines": {
+    "node": ">=18.18.0 <19.0.0"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
