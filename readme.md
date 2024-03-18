@@ -1,5 +1,7 @@
 # Zen Fit Backend
 
+[CLICK HERE FOR DEMO](https://final-project-client-zut2.onrender.com/)
+
 Welcome to the backend side of the Zen Fit project! Below you will find an overview of the routes and the technologies used in this backend application.
 
 ## Routes
