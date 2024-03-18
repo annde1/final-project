@@ -22,5 +22,5 @@ app.use("/api/v1/workouts", workoutRouter);
 app.use("/api/v1/exercises", exercisesRouter);
 app.use(errorHandler);
 app.listen(process.env.PORT || 7500, () => {
-  logger.info("App running on port 7500");
+  logger.info("App running on port ", process.env.PORT || 7500);
 });
